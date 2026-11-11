@@ -1,0 +1,9 @@
+aws_region          = "ap-south-1"
+environment         = "prod"
+vpc_cidr            = "10.20.0.0/16"
+ecs_desired_count   = 2
+ecs_cpu             = 512
+ecs_memory          = 1024
+db_instance_class   = "db.t3.small"
+backup_retention    = 7
+deletion_protection = true
